@@ -19,7 +19,7 @@ logo_label.grid(column=1, row=0)
 
 
 
-instructions=tk.Label(root, text='Select a pdf file on your computer to extract all its text', font = 'Raleway')
+instructions=tk.Label(root, text='Select a pdf file on your computer to extract everything', font = 'Raleway')
 instructions.grid(columnspan=3,column=0,row=1)
 
 def open_file():
